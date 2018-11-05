@@ -1,0 +1,13 @@
+Source: zero-lliurex-clientize
+Section: admin
+Priority: optional
+Maintainer: Raul Rodrigo Segura <raurodse@gmail.com>
+Build-Depends: debhelper (>=9), zero-dev, llxcfg-dev, llxsrchelper
+Standards-Version: 3.9.6
+Homepage: http://lliurex.net
+
+Package: zero-lliurex-clientize
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, zero-center, epi-gtk, llxcfg-runtime
+Description: Zomando to install minimal client meta package
+ This package distribute EPI file to install minimal client metapackage
