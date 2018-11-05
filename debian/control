@@ -2,8 +2,8 @@ Source: zero-lliurex-clientize
 Section: admin
 Priority: optional
 Maintainer: Raul Rodrigo Segura <raurodse@gmail.com>
-Build-Depends: debhelper (>=9), zero-dev, llxcfg-dev, llxsrchelper
-Standards-Version: 3.9.6
+Build-Depends: debhelper (>=10), zero-dev,llxsrchelper
+Standards-Version: 4.1.2
 Homepage: http://lliurex.net
 
 Package: zero-lliurex-clientize
