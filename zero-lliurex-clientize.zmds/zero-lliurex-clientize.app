@@ -1,0 +1,15 @@
+Name=zero-lliurex-clientize
+Name[es]=Clientizar ordenador
+Name[en]=Clientize computer
+Name[qcv]=Clientitza l'ordinador
+Name[ca_ES]=Clientitza l'ordinador
+Comment=Install needed software to work as client
+Comment[es]=Instala el software necesario para funcionar como client
+Comment[qcv]=Instal·la el programari necessari perquè l'ordinador funcione com a client
+Comment[ca_ES]=Instal·la el programari necessari perque l'ordinador funcione com a client
+Icon=lliurex-clientize
+Groups=adm;admins
+Category=System
+ScriptPath=zero-lliurex-clientize.zmd
+Using=pe
+Service=False

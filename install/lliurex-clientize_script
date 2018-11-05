@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+ACTION="$1"
+
+case $ACTION in
+	remove)
+		apt-get remove -y lliurex-meta-minimal-client
+		apt-get autoremove -y
+		TEST=$( dpkg-query -s lliurex-meta-minimal-client 2> /dev/null| grep Status | cut -d " " -f 4 )
+		if [ "$TEST" == 'installed' ];then
+			exit 1
+		fi
+esac
+exit 0
+

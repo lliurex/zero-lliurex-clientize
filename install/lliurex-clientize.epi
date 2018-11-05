@@ -1,0 +1,6 @@
+{
+	"type":"apt",
+	"pkg_list": [{"name":"lliurex-meta-minimal-client","key_store":"zero-lliurex-clientize"}], 
+	"script": {"name":"/usr/share/lliurex-clientize/lliurex-clientize_script", "remove":true},
+	"zomando":"zero-lliurex-clientize"
+}
