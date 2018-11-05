@@ -11,5 +11,5 @@ Icon=lliurex-clientize
 Groups=adm;admins
 Category=System
 ScriptPath=zero-lliurex-clientize.zmd
-Using=pe
+Using=pkexec
 Service=False
