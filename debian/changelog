@@ -1,3 +1,9 @@
+zero-lliurex-clientize (0.1.15) bionic; urgency=medium
+
+  * Fixed control file to remove llxcfg-runtime depends
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 18 Dec 2018 09:21:23 +0100
+
 zero-lliurex-clientize (0.1.14) bionic; urgency=medium
 
   * Initial release for bionic
