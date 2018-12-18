@@ -8,6 +8,6 @@ Homepage: http://lliurex.net
 
 Package: zero-lliurex-clientize
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, zero-center, epi-gtk, llxcfg-runtime
+Depends: ${shlibs:Depends}, ${misc:Depends}, zero-center, epi-gtk
 Description: Zomando to install minimal client meta package
  This package distribute EPI file to install minimal client metapackage
